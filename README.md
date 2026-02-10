@@ -10,7 +10,7 @@ Allows you to easily use the SteamOS repair image with Ventoy.
   https://www.ventoy.net/en/download.html
 - Extract the Ventoy Installer
 - Extract the Ventoy Addon
-- Copy the files and folders from the extracted Ventoy Addon to the root of the extracted Ventoy Installer folder
+- Copy the files and folder from the extracted Ventoy Addon to the root of the extracted Ventoy Installer folder
 - Copy the SteamOS repair image to the extracted Ventoy Installer folder
 - Run:
   ```bash
