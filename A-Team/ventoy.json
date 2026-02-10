@@ -1,0 +1,14 @@
+{
+    "menu_class":[
+        {
+            "key": "SteamOS",
+            "class": "steamos"
+        }
+    ],
+
+    "theme": {
+        "file": "/ventoy/themes/A-Team/theme.txt",
+        "display_mode": "GUI"
+    }
+}
+
