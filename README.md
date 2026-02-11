@@ -1,8 +1,14 @@
-## Info
-Allows you to easily use the SteamOS repair image with Ventoy.
+## Tool Info
+Allows You To Easily Use The SteamOS Repair Image With Ventoy.
 
 
-## Install
+## General & Support Info
+- Requires Linux
+- Supports Ventoy Fresh(Wipe) OR Existing Installs(NoWipe)
+- Probably Only Supports GPT (MBR Untested by me)
+
+
+## Install - Fresh Or Existing
 - Download this Ventoy Addon
 - Download the SteamOS Repair Image (.img format)
 - Make sure the SteamOS repair image filename contains `repair`
@@ -10,12 +16,14 @@ Allows you to easily use the SteamOS repair image with Ventoy.
   https://www.ventoy.net/en/download.html
 - Extract the Ventoy Installer
 - Extract the Ventoy Addon
-- Copy the file and folder from the extracted Ventoy Addon to the root of the extracted Ventoy Installer folder
+- Copy the files and folder from the extracted Ventoy Addon to the root of the extracted Ventoy Installer folder
 - Copy the SteamOS repair image to the extracted Ventoy Installer folder
 - Run:
   ```bash
-  ./Ventoy2Disk+SteamOS.sh
+  ./A-Team-Ventoy+SteamOS_Installer.sh
 - Choose your desired Options
+- ** If you chose Existing Option, you can use the supplied ventoy_grub.cfg in A-Team folder.
+ventoy_grub.cfg goes into your Ventoy data partition inside a folder named: ventoy
 
 
 ## Boot SteamOS From Ventoy
