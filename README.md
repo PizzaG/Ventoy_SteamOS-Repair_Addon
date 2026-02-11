@@ -1,5 +1,5 @@
 ## Tool Info
-Allows You To Easily Use The SteamOS Repair Image With Ventoy.
+Allows You To Easily Use Ventoy USB With The SteamOS Repair Image.
 
 
 ## General & Support Info
