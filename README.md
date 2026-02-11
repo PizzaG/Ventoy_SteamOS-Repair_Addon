@@ -6,7 +6,7 @@ Allows You To Easily Use The SteamOS Repair Image With Ventoy.
 - Requires Linux
 - Supports Ventoy Fresh(Wipe) OR Existing Installs(NoWipe)
 - Probably Only Supports GPT (MBR Untested by me)
-- Requires 8gb Free Space On Ventoy Data Prtition
+- Requires 8gb Free Space On Ventoy Data Partition
 
 
 ## Install - Fresh Or Existing
