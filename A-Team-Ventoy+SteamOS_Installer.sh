@@ -13,6 +13,7 @@ ventoy_steamos_grub_entry() {
     PART="${DRIVE}1"
     MNT="/tmp/ventoy.$$"
 
+    echo ""
     echo "Adding SteamOS Repair / Install To Ventoy GRUB Entry..."
 
     mkdir -p "$MNT"
@@ -376,6 +377,7 @@ mode=${mode:-1}
 
 case "$mode" in
     1)
+        echo ""
         read -p "ALL DATA On $DRIVE Will Be Erased. Proceed? [Y/N]: " confirm
         [[ ! "$confirm" =~ ^[Yy]$ ]] && exit 1
         ventoy_fresh_install

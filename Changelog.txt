@@ -1,3 +1,5 @@
 v0.01- Initial Public Release
 
 v0.02- renamed, now supports fresh ventoy install(Wipe) or existing ventoy install(NoWipe), add default ventoy_grub.cfg in A-Team folder for people who choose existing ventoy install(NoWipe)...
+
+v0.03- just cosmetic tweaks for spacing and flow & such
